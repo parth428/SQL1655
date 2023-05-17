@@ -22,7 +22,7 @@ The database you are provided with is an SQLite database, stored in the file `cs
 
 ### Queries
 
-You are asked to provide SQL queries that provide answers for the following questions. Note that **actors** refers to both male and female actors, unless explicitly specified otherwise. Also note that you should not rely on the data provided in the public database for any of the answers; the private database will have more data. Finally, please note that you may define views, etc., as part of other queries.
+SQL queries that provide answers for the following questions. Note that **actors** refers to both male and female actors, unless explicitly specified otherwise.
 
 * **[Q01]** List all the actors (first and last name) who acted in at least one film in the 80s (1980-1990, both ends inclusive) and in at least one film in the 21st century (>=2000). Sort alphabetically, by the actor's last and first name.
 
