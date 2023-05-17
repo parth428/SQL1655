@@ -1,5 +1,4 @@
 # SQL(1655)
-SQL Project
 
 ### Goal
 The goal of this project is to gain familiarity with SQL.
