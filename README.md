@@ -1,4 +1,4 @@
-# SQL1655
+# SQL(1655)
 SQL Project
 
 ### Goal
