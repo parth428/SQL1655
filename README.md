@@ -1,18 +1,14 @@
 # SQL1655
 SQL Project
-### Description
-This is the **second assignment** for the CS 1656 -- Introduction to Data Science (CS 2056) class, for the Spring 2023 semester.
 
 ### Goal
-The goal of this assignment is for you to gain familiarity with SQL.
+The goal of this project is to gain familiarity with SQL.
 
 ---
 
-### What to do -- movie_db.py
+### movie_db.py
 
-In this assignment you are asked to provide SQL queries that answer 12 questions.
-
-The provided skeleton Python script includes database connection commands and also includes commands to run the SQL queries and return their output. What you should update are the the queries themselves.
+SQL queries that answer 12 questions.
 
 ### Database
 
@@ -22,8 +18,6 @@ The database you are provided with is an SQLite database, stored in the file `cs
 * Directors (did, fname, lname)  
 * Cast (aid, mid, role)  
 * Movie_Director (did, mid)  
-
-During grading, your queries will be tested against this public database, but they will be also tested against a database that is kept private.
 
 
 ### Queries
@@ -56,54 +50,11 @@ You are asked to provide SQL queries that provide answers for the following ques
 
 ---
 
-### Important notes about grading
-It is absolutely imperative that your python program:  
-* runs without any syntax or other errors (using Python3) 
-* strictly adheres to the format specifications for input and output, as explained above.     
-
-Failure in any of the above will result in **severe** point loss.
 
 
-### Allowed Python Libraries
-You are allowed to use the following Python libraries (although a fraction of these will actually be needed):
-```
-argparse
-collections
-csv
-json
-glob
-math
-os
-pandas
-re
-requests
-string
-sys
-time
-xml
-```
-If you would like to use any other libraries, you must ask permission within a maximum of one week after the assignment was released, using [canvas](http://cs1656.org).
 
 
-### How to submit your assignment
-We are going to use Gradescope to submit and grade your assignments. 
 
-To submit your assignment:
-* login to Canvas for this class <https://cs1656.org>  
-* click on Gradescope from the menu on the left  
-* select "Assignment #2" from the list of active assignments in Gradescope
-* follow the instructions to submit your assignment and have it automatically graded.
 
-### What to submit
-For this test assignment you only need to submit `movie_db.py` to "Assignment #2" and see if you get all 120 points. In case of an error or wrong result, you can modify the file and resubmit it as many times as you want until the deadline of **Wednesday, February 22, 11:59 pm**.
 
-### Late submissions
-For full points, we will consider the version submitted to Gradescope 
-* the day of the deadline **Wednesday, February 22, 11:59 pm**  
-* 24 hours later (for submissions that are one day late / -5 points), and  
-* 48 hours after the first deadline (for submissions that are two days late / -15 points).
 
-Our assumption is that everybody will submit on the first deadline. If you want us to grade a late submission, you need to email us at `cs1656-staff@cs.pitt.edu`
-
-### About your github account
-Since we will utilize the github classroom feature to distribute the assignments it is very important that your github account can do **private** repositories. If this is not already enabled, you can do it by visiting <https://education.github.com/>  
