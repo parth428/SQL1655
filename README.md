@@ -8,8 +8,7 @@
 4. [Queries](#queries)
 5. [How to Use](#how-to-use)
 6. [Requirements](#requirements)
-7. [License](#license)
-8. [Contributing](#contributing)
+7. [Contributing](#contributing)
 
 ## Project Overview
 
@@ -87,10 +86,6 @@ This project answers the following questions using SQL: Note that **actors** ref
 ## Requirements
 
 - **SQLite**: You need to have SQLite installed to access and query the database file.
-
-## License
-
-Specify your license here, if any (e.g., MIT License).
 
 ## Contributing
 
