@@ -1,4 +1,4 @@
-# SQL Movie Database
+# Movie Database Analysis Using SQL/Python
 
 ## Table of Contents
 
