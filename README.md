@@ -1,4 +1,4 @@
-# SQL(1655)
+# SQL Movie Database
 
 ### Goal
 
