@@ -1,7 +1,7 @@
 # SQL(1655)
 
 ### Goal
-The goal of this project is to gain familiarity with SQL.
+
 
 ---
 
