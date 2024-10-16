@@ -49,76 +49,84 @@ SQL queries that provide answers for the following questions. Note that **actors
 
 ---
 
-Here’s an improved version of your README file, tailored for GitHub to enhance clarity and structure:
+# SQL Movie Database
 
-SQL Movie Database
+## Table of Contents
 
-Project Overview
+1. [Project Overview](#project-overview)
+2. [Files](#files)
+3. [Database Schema](#database-schema)
+4. [Queries](#queries)
+5. [How to Use](#how-to-use)
+6. [Requirements](#requirements)
+7. [License](#license)
+8. [Contributing](#contributing)
+
+## Project Overview
 
 This project is designed to query a movie database to extract meaningful insights. You will use SQL to answer various questions about the data, which covers movies, actors, directors, and their roles. The database schema is outlined below, providing details on each table and its columns.
 
-Files
+## Files
 
-	•	movie_db.py: This script contains the SQL queries to answer 12 specific questions about the movie database.
-	•	cs1656-public.db: An SQLite database file with information on movies, actors, directors, and their respective relationships.
+- **`movie_db.py`**: This script contains the SQL queries to answer 12 specific questions about the movie database.
+- **`cs1656-public.db`**: An SQLite database file with information on movies, actors, directors, and their respective relationships.
 
-Database Schema
+## Database Schema
 
 The provided SQLite database contains the following tables:
 
-	•	Actors: Contains information about actors, including:
-	•	aid (Actor ID)
-	•	fname (First name)
-	•	lname (Last name)
-	•	gender
-	•	Movies: Details of each movie, including:
-	•	mid (Movie ID)
-	•	title (Title of the movie)
-	•	year (Release year)
-	•	rank (Rating)
-	•	Directors: Information about directors:
-	•	did (Director ID)
-	•	fname (First name)
-	•	lname (Last name)
-	•	Cast: Maps actors to movies and their roles:
-	•	aid (Actor ID)
-	•	mid (Movie ID)
-	•	role (Role in the movie)
-	•	Movie_Director: Links movies to directors:
-	•	did (Director ID)
-	•	mid (Movie ID)
+- **Actors**: Contains information about actors, including:
+  - `aid` (Actor ID)
+  - `fname` (First name)
+  - `lname` (Last name)
+  - `gender` 
 
-Queries
+- **Movies**: Details of each movie, including:
+  - `mid` (Movie ID)
+  - `title` (Title of the movie)
+  - `year` (Release year)
+  - `rank` (Rating)
+
+- **Directors**: Information about directors:
+  - `did` (Director ID)
+  - `fname` (First name)
+  - `lname` (Last name)
+
+- **Cast**: Maps actors to movies and their roles:
+  - `aid` (Actor ID)
+  - `mid` (Movie ID)
+  - `role` (Role in the movie)
+
+- **Movie_Director**: Links movies to directors:
+  - `did` (Director ID)
+  - `mid` (Movie ID)
+
+## Queries
 
 This project answers the following questions using SQL:
 
-	1.	Example Query 1: Describe what it does…
-	2.	Example Query 2: Describe what it does…
+1. *Example Query 1*: Describe what it does...
+2. *Example Query 2*: Describe what it does...
 
-(Continue listing queries in a similar format for clarity.)
+*(Continue listing queries in a similar format for clarity.)*
 
-How to Use
+## How to Use
 
-	1.	Database Setup: Ensure you have SQLite installed to interact with cs1656-public.db.
-	2.	Running Queries: Open movie_db.py in your preferred IDE or text editor to review the SQL queries. You can run these queries directly within SQLite to get the results.
-	3.	Modify Queries: Feel free to modify the queries in movie_db.py to explore additional insights from the database.
+1. **Database Setup**: Ensure you have SQLite installed to interact with `cs1656-public.db`.
+2. **Running Queries**: Open `movie_db.py` in your preferred IDE or text editor to review the SQL queries. You can run these queries directly within SQLite to get the results.
+3. **Modify Queries**: Feel free to modify the queries in `movie_db.py` to explore additional insights from the database.
 
-Requirements
+## Requirements
 
-	•	SQLite: You need to have SQLite installed to access and query the database file.
+- **SQLite**: You need to have SQLite installed to access and query the database file.
 
-License
+## License
 
 Specify your license here, if any (e.g., MIT License).
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request if you would like to improve the project.
-
-This revised structure makes the README more user-friendly, improving readability and making it easier for users to understand the project and its components. Let me know if you’d like further adjustments or additions! ￼
-
-
-
 
 
 
